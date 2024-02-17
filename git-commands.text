@@ -1,0 +1,17 @@
+git pull
+
+// create a new branch
+git checkout -b image-classifier
+git push origin image-classifier
+
+// show all branches
+git branch -a
+
+// Delete a branch on your local filesystem
+git branch -d [name_of_your_new_branch]
+
+// To force the deletion of local branch on your filesystem
+git branch -D [name_of_your_new_branch]
+
+// Delete the branch on github
+git push origin :[name_of_your_new_branch]
