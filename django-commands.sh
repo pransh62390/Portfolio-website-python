@@ -1,0 +1,2 @@
+django-admin startproject PortfolioWebsite
+python manage.py runserver
