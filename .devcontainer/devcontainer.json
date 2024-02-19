@@ -9,6 +9,11 @@
 	"features": {
 		"ghcr.io/devcontainers/features/python": {
 			"version": "3.10"
+		},
+		"ghcr.io/devcontainers/features/java": {
+			"mavenVersion": "latest",
+			"version": "17",
+			"installMaven": true,
 		}
 	},
 
